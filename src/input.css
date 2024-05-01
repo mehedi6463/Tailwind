@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* card/inedx */
+.card{
+    background-image: url(../img/bgimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+/* ourprocess */
+.img_parent{
+    @apply w-full  md:w-[80px] h-[80px] md:bg-white bg-transparent md:border-2 border-blue-400 -mb-8 md:py-2 px-4 rounded-md flex justify-center items-center;
+}
+.content_parent{
+    @apply  bg-white md:border-2 border-blue-400 py-0 md:py-2 px-3 rounded-md;
+}
+/* jobs */
+.jobCard{
+    @apply relative md:static flex flex-col md:flex-row justify-between gap-6 items-center bg-white rounded-md p-6 shadow-lg border-l-4 mb-10 md:mb-0
+}
